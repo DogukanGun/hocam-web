@@ -1,0 +1,44 @@
+.blockquote-footer {
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  font-size: 0.875em;
+  color: #6c757d;
+}
+.blockquote-footer::before {
+  content: "— ";
+}
+
+footer {
+  background-color: #2a363b;
+  color: #fafafa;
+  padding: 2rem 0;
+}
+footer a {
+  color: #fafafa;
+  text-decoration: none;
+}
+footer .title {
+  font-size: calc(1.275rem + 0.3vw);
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+@media (min-width: 1200px) {
+  footer .title {
+    font-size: 1.5rem;
+  }
+}
+footer ul.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+footer ul.menu > li {
+  margin: 0;
+  padding: 0;
+}
+footer ul.menu > li a {
+  color: #a5b7bf;
+}
+footer ul.menu > li a:hover {
+  color: black;
+}
